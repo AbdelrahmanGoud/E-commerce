@@ -1,0 +1,70 @@
+.navbar a
+{
+    font-size: 1.2rem;
+    font-weight: bold;    
+   color: rgb(31, 30, 30) !important;
+   margin-right: 10px;
+}
+.navbar
+{
+    font-family: 'Dancing Script', cursive;
+    
+}
+.navbar span i
+{
+   font-size: 25px;
+   cursor: pointer;
+}
+.navbar span .fa-facebook:hover
+{
+    color: #1877f2;
+   
+}
+.navbar span .fa-twitter:hover
+{
+    color: #1da1f2;
+   
+}
+.navbar span .fa-instagram:hover
+{
+    color: #b36ade;
+   
+}
+.navbar span .fa-youtube:hover
+{
+    color: #ff0000;
+   
+}
+.navbar span .fa-linkedin:hover
+{
+    color: #0e76a8;
+   
+}
+.rout-link
+{
+   text-decoration: none !important; 
+}
+.logo
+{
+   font-size: 22px !important;
+}
+.cart-icon
+{
+   position: relative;
+}
+
+.countr-cart
+{
+   position: absolute;
+   text-align: center;
+   top: -15px;
+   right: -5px;
+   color: white;
+   font-size: 10px;
+  width: 20px;
+  height: 20px;
+  padding-top: 3px;
+   background-color: red;
+   border-radius: 50%;
+   z-index: 3000;
+}

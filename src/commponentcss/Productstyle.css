@@ -1,0 +1,60 @@
+#Prodect
+{
+    background-color: #f1f1f1;
+    font-family: 'Crimson Text', serif; 
+    padding-top: 150px;    
+    overflow: hidden;
+}
+.dec-prodect h2 ,.totalp
+{
+   font-weight: bold;
+         
+}
+.P-line
+{
+    display: flex;
+    justify-content: center;      
+}
+.lin-product
+{
+          width: 100px;
+          height: 2px;
+          border-radius: 5px;
+          background-color: black; 
+          text-align: center;    
+          position: relative;       
+}
+.lin-product::after
+{
+          content: '';
+          width: 60px;
+          height: 2px;
+          background-color: black;
+          position: absolute; 
+          top: 10px; 
+          left: 20px;       
+}
+
+.lin-product::before
+{
+          content: '';
+          width: 100px;
+          height: 2px;
+          background-color: black;
+          position: absolute; 
+          top: 20px; 
+          left: 0px;     
+}
+
+.rate-name
+{
+      color: rgb(191, 141, 14); 
+}
+.pro-price
+{
+    color: darkred;
+}
+.pro-img
+{
+    height: 30vh !important;
+}

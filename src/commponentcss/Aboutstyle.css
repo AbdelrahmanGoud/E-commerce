@@ -1,0 +1,27 @@
+.about-item
+{
+  padding-top: 120px;       
+}
+.about
+{
+   font-family: 'Crimson Text', serif;  
+   font-weight: bold;   
+}
+.contant-about
+{
+   display: flex;
+   align-items: center;       
+}
+.about-item h2
+{
+    font-size: 40px;      
+}
+.cont-im img
+{
+  border-top: 10px solid rgb(73, 70, 70);
+  border-left: 10px solid rgb(73, 70, 70);
+  border-bottom: 10px solid rgb(73, 70, 70);
+   padding: 30px 0px 30px 30px;
+   border-radius: 10px;
+  
+}

@@ -1,0 +1,14 @@
+.sec-cate
+{
+ background-color: #f1f1f1;
+ font-family: 'Crimson Text', serif;  
+ padding-top: 50px;
+ padding-bottom: 50px;
+ font-weight: bold;   
+}
+.cat-link
+{
+   text-decoration: none !important;
+   color: black !important;
+   font-weight: bold;       
+}

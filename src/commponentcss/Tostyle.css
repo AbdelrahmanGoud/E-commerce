@@ -1,0 +1,79 @@
+#services
+{
+  padding-top: 50px;
+  padding-bottom: 150px;
+   font-family: 'Crimson Text', serif;
+ 
+  overflow: hidden;
+  background-color: #f1f1f1;  
+}
+.titl-sec-tow h2
+{
+   font-size: 4rem;       
+  
+}
+.titl-sec-tow
+{
+   padding-bottom: 70px;
+}
+.lines
+{
+   display: flex;
+   justify-content: center;
+   
+          
+}
+
+.lin-1
+{
+    width: 100px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: black; 
+    text-align: center;    
+    position: relative; 
+}
+.lin-1::after
+{
+   content: '';
+   width: 60px;
+   height: 2px;
+   background-color: black;
+   position: absolute; 
+   top: 10px; 
+   left: 20px;     
+}
+
+.lin-1::before
+{
+   content: '';
+   width: 100px;
+   height: 2px;
+   background-color: black;
+   position: absolute; 
+   top: 20px; 
+   left: 0px;     
+}
+.icons i
+{
+   font-size: 50px; 
+} 
+
+.itme-serv
+{
+  background-color: white;
+   border-radius: 10px;
+  transition-duration:1s;
+  overflow: hidden;
+}
+
+.itme-serv:hover
+{
+   transform: rotate(360deg);
+   color: darkred;
+   box-shadow: 2px 2px 20px rgb(80, 78, 78);
+   
+   
+}
+
+

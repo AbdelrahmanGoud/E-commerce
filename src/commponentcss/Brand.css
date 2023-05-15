@@ -1,0 +1,54 @@
+#Brand
+{
+    padding-top: 100px; 
+    background-color: #f1f1f1;
+    padding-bottom: 50px;     
+}
+
+.brand-link
+{
+   text-decoration: none !important;
+   color: black !important;
+   font-weight: bold;
+}
+
+
+.FLEX
+{  background-color: white;
+   padding: 20px 0;      
+    font-family: 'Crimson Text', serif;
+   
+   display: flex;
+      
+}
+.bind-img
+{
+  margin-left: 50px; 
+}
+.dic-brind
+{
+   padding-left: 10px;       
+}
+.brind-item ,.brand-item4,.brand-item5
+{
+          background-color: white;
+          padding: 50px 0;      
+           font-family: 'Crimson Text', serif;
+            
+            
+}
+
+.img-bande-4
+{
+   width: 60%;
+}
+
+.img-bande-5
+{
+   margin-left:150px;
+}
+
+.dec-brande-5
+{
+   padding-left: 20px;
+}

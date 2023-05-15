@@ -1,0 +1,42 @@
+.counter
+{
+   padding-top: 60px;
+   padding-bottom: 60px;   
+   background-color: #f1f1f1;
+   
+
+}
+.cards
+{
+    background-color: white;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 50px;      
+}
+.pric 
+{
+   display: flex;       
+}
+
+.pric h5 h6
+{
+    font-size: 1.2rem;      
+}
+
+.countrday
+{
+     display: flex;     
+}
+
+.countrday p
+{
+    margin-right: 25px;
+    font-weight: bold; 
+       
+}
+
+.but
+{
+    border-radius: 25px;      
+}

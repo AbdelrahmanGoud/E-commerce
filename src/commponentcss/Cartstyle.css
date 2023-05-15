@@ -1,0 +1,54 @@
+.cartProduct
+{
+    font-family: 'Crimson Text', serif; 
+    overflow: hidden;
+}
+.cart-dec
+{
+    text-align: center;
+    padding-top: 100px;     
+}
+.cart-dec h2
+{
+    font-weight: bold;  
+}
+
+.lin-product
+{
+          width: 100px;
+          height: 2px;
+          border-radius: 5px;
+          background-color: black; 
+          text-align: center;    
+          position: relative;       
+}
+.lin-product::after
+{
+          content: '';
+          width: 60px;
+          height: 2px;
+          background-color: black;
+          position: absolute; 
+          top: 10px; 
+          left: 20px;       
+}
+
+.lin-product::before
+{
+          content: '';
+          width: 100px;
+          height: 2px;
+          background-color: black;
+          position: absolute; 
+          top: 20px; 
+          left: 0px;     
+}
+.P-line
+{
+    display: flex;
+    justify-content: center;      
+}
+.cat-img
+{
+    width: 90%;
+}

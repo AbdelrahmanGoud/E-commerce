@@ -1,0 +1,23 @@
+
+       .arrowup
+       {
+          position: absolute;
+          bottom: 20px;
+          right: 20px;
+          z-index: 9999999;    
+            position: fixed;  
+            animation-name: arrowan;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate; 
+            cursor: pointer;
+       }
+       @keyframes arrowan
+       {
+          from{bottom: 15px;}
+          to{bottom: 20px;}
+       }
+       .arrowup i
+       {
+          font-size: 40px;
+       }

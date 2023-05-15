@@ -1,0 +1,82 @@
+.fot-logo
+{
+    font-family: 'Dancing Script', cursive;
+      
+}
+.fot-icon-mad i
+{
+    margin-right: 20px;
+    font-size: 25px;     
+    
+}
+.fot
+{
+   font-family: 'Crimson Text', serif; 
+   font-weight: bold;
+   height: 100%; 
+   overflow: hidden;
+   background-color: white;
+}
+.em-input
+{
+    position: relative !important;      
+}
+.emi-icon
+{
+   position: absolute;
+   top: 45.5%;  
+   right: 20px;
+   z-index: 9999;     
+}
+.adders li ,.usefu li ,.cat li
+{
+   list-style-type: none !important;
+   line-height: 1rem;       
+}
+.adders i ,.usefu i,.cat i
+{
+    margin-right: 5px;      
+}
+.rights
+{
+     display: flex;
+     justify-content: space-between;     
+}
+.legal span
+{
+      margin-right: 15px;    
+}
+.finsh-logo
+{
+          font-family: 'Dancing Script', cursive;  
+}
+.payment
+{
+   width: 50%; 
+   text-align: center;
+}
+.fot-icon-mad .fa-facebook
+{
+    color: #1877f2;
+   
+}
+.fot-icon-mad .fa-twitter
+{
+    color: #1da1f2;
+   
+}
+.fot-icon-mad .fa-instagram
+{
+    color: #b36ade;
+   
+}
+ .fot-icon-mad .fa-youtube
+{
+    color: #ff0000;
+   
+}
+.fot-icon-mad .fa-linkedin
+{
+    color: #0e76a8;
+   
+}
