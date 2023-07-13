@@ -42,6 +42,16 @@
      display: flex;
      justify-content: space-between;     
 }
+@media screen and (max-width:"991px") 
+{
+    .rights
+    {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column !important;   
+    }
+}
 .legal span
 {
       margin-right: 15px;    

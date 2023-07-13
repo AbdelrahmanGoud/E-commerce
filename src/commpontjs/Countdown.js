@@ -2,36 +2,48 @@ import React, { useState, useEffect } from "react";
 import back from '../image/model4.jpg';
 
 function Countdown() {
-  let date =new Date()
-  let showdate=date.getDate();
-  let showday=date.getMonth();
-
   const [countdown, setCountdown] = useState({
     days: 0,
     hours: 0,
     minutes: 0,
     seconds: 0,
   });
-    
-  useEffect(() => {
-  const countdownDate = new Date(`2023-${showday}-${showdate+3}T00:00:00`).getDate(); // تاريخ العد التنازلي
-     console.log(countdown)
-    const interval = setInterval(() => {
-      const now = new Date().getDate();
-      console.log( now)
-      const distance = countdownDate - now;
 
-      const days = Math.floor(distance / (2500 * 60 * 60 * 24));
-      const hours = Math.floor(
-        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-      );
+  useEffect(() => {
+    // Set the date we're counting down to
+    const countDownDate = new Date("July 30, 2023 00:00:00").getTime();
+
+    // Update the count down every 1 second
+    const timer = setInterval(() => {
+
+      // Get today's date and time
+      const now = new Date().getTime();
+        
+      // Find the distance between now and the count down date
+      const distance = countDownDate - now;
+        
+      // Time calculations for days, hours, minutes and seconds
+      const days = Math.floor(distance / (1500 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-      setCountdown({ days, hours, minutes, seconds });
+        
+      // Update the countdown state
+      setCountdown({
+        days,
+        hours,
+        minutes,
+        seconds,
+      });
+        
+      // If the count down is over, clear the interval
+      if (distance < 0) {
+        clearInterval(timer);
+      }
     }, 1000);
 
-    return () => clearInterval(interval);
+    // Clear the interval on component unmount
+    return () => clearInterval(timer);
   }, []);
 
   return (

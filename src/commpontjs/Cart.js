@@ -27,10 +27,7 @@ export default function Cart()
             
       <thead>
         <tr>
-          <th>Id</th>
-          <th>Category</th>
           <th>Title</th>
-          <th>Description</th>
           <th>Image</th>
           <th>Quantity</th>
           <th>Price</th>
@@ -40,11 +37,8 @@ export default function Cart()
       <tbody>
           {cart.map((product)=>(
                  <tr key={product.id}>
-                 <td>{product.id}</td>
-                 <td>{product.category}</td>
                  <td>{product.title}</td>
-                 <td >{product.description}</td>
-                 <td><img className='cat-img' src={product.image} /></td>
+                 <td><img className='cat-img img-fluid' src={product.image} /></td>
                  <td>{product.quantity}</td>
                  <td>{product.price}$</td>
                  <td><button className='btn btn-danger' onClick={()=>dispatch(deleteFromcart(product))}>Delete</button></td>
