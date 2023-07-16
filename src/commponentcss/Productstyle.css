@@ -58,3 +58,36 @@
 {
     height: 30vh !important;
 }
+.cat-1
+{
+    margin-right: 15px;
+    text-decoration: none !important;
+    color: black !important;
+    font-size: 1.04rem;
+}
+
+.cat-1:hover
+{
+   border-bottom: 0.4px solid darkred; 
+}
+.img-elct
+{
+   width: 70% !important; 
+   text-align: center;
+}
+.elc-cat
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column !important; 
+   padding: 10px;
+}
+.elc-but
+{
+   text-decoration: none !important;
+   color: white !important;
+   padding: 10px;
+   background-color: #0d6efd; 
+   border-radius: 4px;
+}

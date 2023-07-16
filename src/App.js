@@ -25,6 +25,9 @@ import $ from 'jquery';
 import React, { useEffect } from 'react';
 import WOW from 'wowjs';
 import 'wowjs/css/libs/animate.css';
+import Electronics from './commpontjs/Electronics';
+import Jewelery from './commpontjs/Jewelery';
+import Mens from './commpontjs/Mens';
 function App() {
 
   useEffect(() => {
@@ -61,6 +64,10 @@ function App() {
       />
       <Route path='/Cart' element={<Cart/>}/>
       <Route path='Notfound' element={<Notfound/>}/>
+      <Route path='Electronics' element={<Electronics/>}/>
+      <Route path='Jewelery' element={<Jewelery/>}/>
+      <Route path='Mens' element={<Mens/>}/>
+
     </Routes>
     <Arrowup/>
    <Footer/>
